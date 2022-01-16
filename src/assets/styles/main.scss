@@ -178,6 +178,13 @@
                         margin-left: 20px;
                         min-width: 110px;
                     }
+                    @media (max-width: 400px) {
+                        margin-left: 0;
+                        button{
+                            margin-left: 10px;
+                            min-width: 88px;
+                        }
+                    }
                 }
             }
         }
